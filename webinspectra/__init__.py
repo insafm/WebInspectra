@@ -1,0 +1,1 @@
+from .inspectra import WebInspectra

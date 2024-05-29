@@ -31,7 +31,7 @@ rm -rf /var/lib/apt/lists/*
 ```
 
 ### Install Chrome Driver
-Official Chrome driver URL: [Chrome driver website] https://developer.chrome.com/docs/chromedriver
+Official Chrome driver URL: [Chrome driver website](https://developer.chrome.com/docs/chromedriver)
 - **Linux**: 
 ```sh
 LATEST_CHROMEDRIVER_VERSION=$(wget -qO- https://chromedriver.storage.googleapis.com/LATEST_RELEASE) && \
@@ -57,8 +57,8 @@ To inspect a website using the command-line interface, use the webinspectra comm
 ```bash
 webinspectra --url <your_website_url> --category
 ```
---url or -u: The URL of the website you want to inspect.
---category or -c: An optional flag to group the results by category.
+- --url or -u: The URL of the website you want to inspect.
+- --category or -c: An optional flag to group the results by category.
 
 This command will analyze the technologies used on your provided website and group the results by category.
 
@@ -83,8 +83,8 @@ result = inspectra.inspect(url, by_category=False)
 # Print the result
 print(result)
 ```
-url: The URL of the website you want to inspect.
-by_category: A boolean flag to indicate whether to group the results by category. Set to False by default.
+- url: The URL of the website you want to inspect.
+- by_category: A boolean flag to indicate whether to group the results by category. Set to False by default.
 
 
 ### Explanation of the Output

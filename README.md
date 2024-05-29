@@ -55,7 +55,7 @@ WebInspectra can be used either as a command-line tool or as a Python module. Be
 To inspect a website using the command-line interface, use the webinspectra command. This command allows you to specify the URL of the website you want to inspect and optionally group the results by category.
 
 ```bash
-webinspectra --url <your_website_url> --category
+python -m webinspectra --url <your_website_url> --category
 ```
 - `--url` or `-u`: The URL of the website you want to inspect.
 - `--category` or `-c`: An optional flag to group the results by category.

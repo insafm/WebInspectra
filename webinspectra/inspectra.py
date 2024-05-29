@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 class WebInspectra:
 	"""
-	WebInspectra is a tool for inspecting web pages to detect technologies used.
+	WebInspectra is a tool for detecting web pages to detect technologies used.
 	
 	Attributes:
 		webpage (WebPage): The web page to be inspected.

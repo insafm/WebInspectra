@@ -1,4 +1,4 @@
-from WebInspectra.webinspectra import WebInspectra
+from webinspectra import WebInspectra
 
 def test_google_inspect():
     google_url = "https://www.google.com"

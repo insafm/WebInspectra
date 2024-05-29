@@ -394,7 +394,10 @@ class WebInspectra:
 		# Iterate over each implied or required technology
 		for implied in implied_techs or []:
 			# Extract technology name and confidence level
-			implied, confidence = confidence_regexp.search(implied).groups()
+			confidence = 100
+			confidence_check = confidence_regexp.search(implied)
+			if confidence_check:
+				implied, confidence = confidence_check.groups()
 
 			# Set confidence key
 			confidence_key = f"{type} {tech_name}"
@@ -403,7 +406,7 @@ class WebInspectra:
 			if 'confidence' not in implied:
 				self.detected_technologies[implied] = {}
 				self.detected_technologies[implied]["confidence"] = {}
-				self.detected_technologies[implied]["confidence"][confidence_key] = 100
+				self.detected_technologies[implied]["confidence"][confidence_key] = confidence
 			# If some doubts exist (confidence level >= 50), add the technology with the given confidence level
 			else:
 				if int(confidence) >= 50:

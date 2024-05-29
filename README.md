@@ -44,7 +44,7 @@ rm chromedriver_linux64.zip
 
 ### Install WebInspectra
 ```bash
-pip install webinspectra
+pip install WebInspectra
 ```
 
 ## Usage

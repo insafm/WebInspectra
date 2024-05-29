@@ -130,3 +130,11 @@ The inspect method returns a dictionary containing the technologies detected on 
 In this example, the tool detected the "Bootstrap" technology on the specified website, along with its version, description, and other relevant details. The count key indicates the total number of detected technologies.
 
 By using WebInspectra, you can quickly and easily gain insights into the technologies used by any website, helping you make informed decisions about web development and technology adoption.
+
+## Contributions
+We welcome contributions! Please check the repository for contribution guidelines and open issues.
+
+## License
+WebInspectra is released under the GNU General Public License v3.0 (GPL-3.0).
+
+We hope WebInspectra becomes an invaluable tool in your web development and security. Stay tuned for more updates and features in future releases!

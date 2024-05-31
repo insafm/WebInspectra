@@ -3,7 +3,7 @@ import pathlib
 
 setup(
     name="WebInspectra",
-    version="1.0.2",
+    version="1.0.3",
     description="WebInspectra is a Python package designed for detecting web technologies used by a given URL. It provides a method to analyze the technologies powering a website, including frameworks, libraries, CDN usage, advertising platforms, and more. By using various detection patterns and algorithms, WebInspectra identifies and categorizes the technologies utilized in the frontend and backend of web applications.",
     long_description=(pathlib.Path(__file__).parent / "README.md").read_text(),
     long_description_content_type="text/markdown",
@@ -18,8 +18,12 @@ setup(
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Security',
     ],
-    packages=find_packages(exclude=['tests']),
-    package_data={'WebInspectra': ['data/*']},
+    packages=find_packages(),
+    include_package_data=True,
+    package_data={'webinspectra': [
+        'data/*.json',
+        'data/technologies/*.json']
+    },
     license="GPLv3",
     install_requires=[
         'beautifulsoup4',

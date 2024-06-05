@@ -61,7 +61,7 @@ class WebPage:
 		self.parsed_html = BeautifulSoup(self.html, 'lxml')
 
 		# Fetch various information using ThreadPoolExecutor
-		with ThreadPoolExecutor() as executor:
+		with ThreadPoolExecutor(max_workers=10) as executor:
 			futures = {
 				"headers": executor.submit(sele_utils.get_headers),
 				"css": executor.submit(sele_utils.get_css_rules),
@@ -98,13 +98,17 @@ class WebPage:
 		# Construct the URL for robots.txt using the base URL of the web page
 		robots_txt_url = urljoin(self.url, "robots.txt")
 
-		# Send a GET request to fetch the content of robots.txt
-		response = requests.get(robots_txt_url)
+		try:
+			# Send a GET request to fetch the content of robots.txt with a timeout
+			response = requests.get(robots_txt_url, timeout=10)
 
-		# Check if the response status code is 200 (OK)
-		if response.status_code == 200:
-			# If the request was successful, assign the content of robots.txt to robots_content
-			robots_content = response.text
+			# Check if the response status code is 200 (OK)
+			if response.status_code == 200:
+				# If the request was successful, assign the content of robots.txt to robots_content
+				robots_content = response.text
+		except requests.RequestException as e:
+			# Handle any request exceptions (e.g., timeout, connection error)
+			print(f"Failed to fetch robots.txt: {e}")
 
 		return robots_content
 
@@ -125,7 +129,7 @@ class WebPage:
 			record_types = ['A', 'AAAA', 'CNAME', 'MX', 'NS', 'SOA', 'TXT', 'SRV', 'DS', 'DNSKEY']
 			
 			# Use ThreadPoolExecutor to concurrently resolve DNS records
-			with ThreadPoolExecutor() as executor:
+			with ThreadPoolExecutor(max_workers=10) as executor:
 				# Submit DNS resolution tasks for each record type
 				futures = {
 					executor.submit(
@@ -254,7 +258,7 @@ class WebPage:
 			list: A list containing the content of all scripts.
 		"""
 		scripts_content = []
-		with ThreadPoolExecutor() as executor:
+		with ThreadPoolExecutor(max_workers=10) as executor:
 			# Submit script fetching tasks to the ThreadPoolExecutor
 			futures = {
 				executor.submit(self.fetch_script, url): url

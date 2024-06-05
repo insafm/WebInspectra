@@ -1,6 +1,6 @@
 # WebInspectra
 
-WebInspectra is a Python package designed for detecting web technologies used by a given URL. It provides a method to analyze the technologies powering a website, including frameworks, libraries, CDN usage, advertising platforms, and more. By leveraging various detection patterns and algorithms, WebInspectra identifies and categorizes the technologies utilized in the frontend and backend of web applications.
+WebInspectra is a Python package designed for detecting web technologies used by a given URL. It provides a method to analyze the technologies powering a website, including frameworks, libraries, CDN usage, advertising platforms, and more. By using various detection patterns and algorithms, WebInspectra identifies and categorizes the technologies utilized in the frontend and backend of web applications.
 
 ## Features
 - Detects various web technologies and frameworks.
@@ -12,7 +12,7 @@ WebInspectra is a Python package designed for detecting web technologies used by
 ### Prerequisites
 - Python 3.6 or higher
 - Google Chrome
-- Chromedriver
+- Chrome Driver
 
 ### Install Chrome
 - **Ubuntu**:
@@ -24,22 +24,22 @@ sudo apt-get install google-chrome-stable
 - **Other Linux Distributions**: 
 ```sh
 wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add - && \
-sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list' && \
-apt-get update && \
-apt-get install --yes --quiet --no-install-recommends google-chrome-stable && \
-rm -rf /var/lib/apt/lists/*
+    sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list' && \
+    apt-get update && \
+    apt-get install --yes --quiet --no-install-recommends google-chrome-stable && \
+    rm -rf /var/lib/apt/lists/*
 ```
 
 ### Install Chrome Driver
 Official Chrome driver URL: [Chrome driver website](https://developer.chrome.com/docs/chromedriver)
 - **Linux**: 
 ```sh
-LATEST_CHROMEDRIVER_VERSION=$(wget -qO- https://chromedriver.storage.googleapis.com/LATEST_RELEASE) && \
-wget -q https://chromedriver.storage.googleapis.com/${LATEST_CHROMEDRIVER_VERSION}/chromedriver_linux64.zip && \
-unzip chromedriver_linux64.zip && \
-mv chromedriver /usr/local/bin/ && \
-chmod +x /usr/local/bin/chromedriver && \
-rm chromedriver_linux64.zip
+LATEST_CHROMEDRIVER_VERSION=$(wget -qO- https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_STABLE) && \
+    wget -q https://storage.googleapis.com/chrome-for-testing-public/${LATEST_CHROMEDRIVER_VERSION}/linux64/chromedriver-linux64.zip && \
+    unzip chromedriver-linux64.zip && \
+    mv chromedriver-linux64/chromedriver /usr/local/bin/ && \
+    chmod +x /usr/local/bin/chromedriver && \
+    rm chromedriver-linux64.zip
 ```
 
 ### Install WebInspectra

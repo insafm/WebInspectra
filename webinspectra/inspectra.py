@@ -52,7 +52,7 @@ class WebInspectra:
 		self.categories = self.get_categories()
 		
 		# Use a thread pool to detect technologies concurrently
-		with ThreadPoolExecutor() as executor:
+		with ThreadPoolExecutor(max_workers=10) as executor:
 			futures = [
 				executor.submit(
 					self._detect_technology,
@@ -137,7 +137,7 @@ class WebInspectra:
 			signature (Signature): The signature of the technology to detect.
 		"""
 		# Main detection loop with parallel processing
-		with ThreadPoolExecutor() as executor:
+		with ThreadPoolExecutor(max_workers=10) as executor:
 			futures = []
 			
 			# Base detection
@@ -405,12 +405,14 @@ class WebInspectra:
 			# If no doubts exist, add the technology with full confidence
 			if 'confidence' not in implied:
 				self.detected_technologies[implied] = {}
+				self.detected_technologies[implied]["versions"] = []
 				self.detected_technologies[implied]["confidence"] = {}
 				self.detected_technologies[implied]["confidence"][confidence_key] = confidence
 			# If some doubts exist (confidence level >= 50), add the technology with the given confidence level
 			else:
 				if int(confidence) >= 50:
 					self.detected_technologies[implied] = {}
+					self.detected_technologies[implied]["versions"] = []
 					self.detected_technologies[implied]["confidence"] = {}
 					self.detected_technologies[implied]["confidence"][confidence_key] = int(confidence)
 	
@@ -496,6 +498,7 @@ class WebInspectra:
 					categorized_technologies[cat_name]["technologies"].append({
 						"name": tech_name,
 						"description": tech_info.get("description"),
+						"versions": tech_info.get("versions"),
 						"cpe": tech_info.get("cpe"),
 						"website": tech_info.get("website"),
 						"pricing": tech_info.get("pricing"),

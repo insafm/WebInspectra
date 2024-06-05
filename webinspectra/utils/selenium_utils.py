@@ -13,7 +13,12 @@ class SeleniumUtilities:
 		if headless:
 			chrome_options.add_argument('--headless')
 
-		self.driver = uc.Chrome(options=chrome_options, headless=True, use_subprocess=False)
+		self.driver = uc.Chrome(
+			options=chrome_options,
+			headless=True,
+			use_subprocess=False,
+			keep_alive=False
+		)
 
 		user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
 		self.driver.execute_cdp_cmd("Network.setUserAgentOverride", {

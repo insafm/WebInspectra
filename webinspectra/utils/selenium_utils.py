@@ -1,11 +1,12 @@
+from selenium import webdriver
 from selenium.common.exceptions import JavascriptException
-from selenium.webdriver.chromium.options import ChromiumOptions
+from selenium.webdriver.chrome.options import Options
 import undetected_chromedriver as uc
 
 class SeleniumUtilities:
 
-	def __init__(self, headless=True,  **kwargs):
-		chrome_options = ChromiumOptions()
+	def __init__(self, headless=True,  use_undetected=True, **kwargs):
+		chrome_options = Options()
 		chrome_options.add_argument("--no-sandbox")
 		chrome_options.add_argument("--disable-gpu")
 		chrome_options.add_argument('--disable-dev-shm-usage')
@@ -13,12 +14,19 @@ class SeleniumUtilities:
 		if headless:
 			chrome_options.add_argument('--headless')
 
-		self.driver = uc.Chrome(
-			options=chrome_options,
-			headless=True,
-			use_subprocess=False,
-			keep_alive=False
-		)
+		if use_undetected:
+			self.driver = uc.Chrome(
+				options=chrome_options,
+				headless=headless,
+				# use_subprocess=True,
+				keep_alive=False
+			)
+		else:
+			self.driver = webdriver.Chrome(
+				options=chrome_options,
+				keep_alive=False,
+				**kwargs
+			)
 
 		user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
 		self.driver.execute_cdp_cmd("Network.setUserAgentOverride", {

@@ -50,7 +50,7 @@ class WebInspectra:
 		# Get the technologies and categories to inspect
 		self.technologies = self.get_technologies()
 		self.categories = self.get_categories()
-		
+
 		# Use a thread pool to detect technologies concurrently
 		with ThreadPoolExecutor(max_workers=10) as executor:
 			futures = [
@@ -63,6 +63,8 @@ class WebInspectra:
 			# Ensure all detection tasks have completed
 			for future in futures:
 				future.result()
+
+		self.webpage.driver.quit()
 
 		# Exclude incompatible technologies from the detected list
 		self._exclude_incompatible_technologies()

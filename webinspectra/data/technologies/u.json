@@ -154,6 +154,40 @@
     "icon": "Ubuntu.svg",
     "website": "https://www.ubuntu.com/server"
   },
+  "Ucalc": {
+    "cats": [
+      5,
+      110
+    ],
+    "description": "Ucalc is a platform offering calculators and form building tools, facilitating efficient computation and streamlined data collection processes.",
+    "icon": "Ucalc.svg",
+    "js": {
+      "uCalc": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "ucalc\\.pro/api/",
+    "website": "https://ucalc.pro"
+  },
+  "Ucommerce": {
+    "cats": [
+      6
+    ],
+    "description": "Ucommerce is an ecommerce platform for enterprise-level online businesses.",
+    "icon": "Ucommerce.svg",
+    "js": {
+      "uCommerce": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "uCommerce\\.facets\\.js",
+    "website": "https://ucommerce.net"
+  },
   "Ueeshop": {
     "cats": [
       6
@@ -169,6 +203,23 @@
     ],
     "saas": true,
     "website": "https://www.ueeshop.com"
+  },
+  "Ultimate": {
+    "cats": [
+      52,
+      53
+    ],
+    "description": "Ultimate is a platform for automating customer service using conversational and generative AI technology.",
+    "icon": "Ultimate.png",
+    "js": {
+      "ultimateAiLogin": "",
+      "ultimateAiUpdateUser": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.ultimate.ai"
   },
   "Ultimate Addons for Elementor": {
     "cats": [
@@ -370,6 +421,17 @@
     "scriptSrc": "ubembed\\.com",
     "website": "https://unbounce.com"
   },
+  "Unbound Commerce": {
+    "cats": [
+      6
+    ],
+    "description": "Unbound Commerce is a mobile and ecommerce provider for retailers.",
+    "dom": "link[href*='.unboundcommerce.com']",
+    "icon": "UnboundCommerce.svg",
+    "saas": true,
+    "scriptSrc": "\\.unboundcommerce\\.com/",
+    "website": "https://www.unboundcommerce.com"
+  },
   "Unbox": {
     "cats": [
       6
@@ -485,6 +547,25 @@
     "saas": true,
     "website": "https://unicornplatform.com"
   },
+  "Unless": {
+    "cats": [
+      53
+    ],
+    "description": "Unless is an AI-driven solution to enhance customer success.",
+    "dom": "script[data-unless]",
+    "icon": "Unless.svg",
+    "js": {
+      "unlessComponentCleanUp": ""
+    },
+    "pricing": [
+      "high",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.unless\\.com/",
+    "website": "https://unless.com/"
+  },
   "UnoCSS": {
     "cats": [
       66
@@ -544,6 +625,19 @@
     "saas": true,
     "website": "https://unruly.co"
   },
+  "Unstack": {
+    "cats": [
+      1
+    ],
+    "cookies": {
+      "unstack_sid": ""
+    },
+    "description": "Unstack is a no-code CMS enabling the deployment of high-performance ecommerce storefronts and websites without engineering overhead.",
+    "icon": "Unstack.svg",
+    "saas": true,
+    "scriptSrc": "cdn\\.unstack\\.com/",
+    "website": "https://www.unstack.com"
+  },
   "UpSellit": {
     "cats": [
       98
@@ -590,6 +684,26 @@
     "scriptSrc": "\\.upfluence\\.co/",
     "website": "https://www.upfluence.com"
   },
+  "Upgates": {
+    "cats": [
+      6
+    ],
+    "description": "Upgates is a subscription-based ecommerce software used to build eshops.",
+    "icon": "Upgates.svg",
+    "js": {
+      "upgates": ""
+    },
+    "meta": {
+      "web_author": "^UPgates$"
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.upgates.com"
+  },
   "Uploadcare": {
     "cats": [
       31
@@ -620,6 +734,54 @@
     "oss": true,
     "website": "https://upptime.js.org"
   },
+  "Upravel": {
+    "cats": [
+      36
+    ],
+    "cookies": {
+      "user_id-legacy": ""
+    },
+    "description": "Upravel is a marketing advertising system.",
+    "dom": "link[href*='.upravel.com']",
+    "icon": "Upravel.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://upravel.com"
+  },
+  "Upsales": {
+    "cats": [
+      32,
+      53
+    ],
+    "description": "Upsales is an enterprise CRM and marketing automation tool.",
+    "icon": "Upsales.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "img\\.upsales\\.com/",
+    "website": "https://www.upsales.com"
+  },
+  "Upscope": {
+    "cats": [
+      46
+    ],
+    "description": "Upscope is a cobrowsing software enabling real-time website navigation with others, facilitating seamless teamwork and improved customer support.",
+    "icon": "Upscope.svg",
+    "js": {
+      "Upscope": "",
+      "Upscope._version": "^(.+)$\\;version:\\1"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "js\\.upscope\\.io/",
+    "website": "https://upscope.com"
+  },
   "Upserve": {
     "cats": [
       93
@@ -633,6 +795,24 @@
     "saas": true,
     "scriptSrc": "app\\.upserve\\.com/",
     "website": "https://onlineordering.upserve.com"
+  },
+  "Uptain": {
+    "cats": [
+      98
+    ],
+    "description": "Uptain is a software solution designed to reduce shopping cart abandonment in ecommerce by utilizing AI-based tools like exit-intent popups and trigger emails.",
+    "icon": "Uptain.svg",
+    "js": {
+      "uptainUpdateUrl": ""
+    },
+    "pricing": [
+      "payg",
+      "poa"
+    ],
+    "requiresCategory": 6,
+    "saas": true,
+    "scriptSrc": "\\.uptain\\.de/",
+    "website": "https://uptain.de"
   },
   "UptimeRobot": {
     "cats": [
@@ -859,6 +1039,24 @@
     "saas": true,
     "website": "https://userback.io"
   },
+  "Userbase": {
+    "cats": [
+      69
+    ],
+    "description": "Userbase is a tool facilitating login integration and user data persistence for static websites.",
+    "icon": "Userbase.svg",
+    "js": {
+      "userbase": ""
+    },
+    "oss": true,
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://userbase.com"
+  },
   "Usercentrics": {
     "cats": [
       67
@@ -915,6 +1113,26 @@
     ],
     "saas": true,
     "website": "https://userpilot.com"
+  },
+  "Usersnap": {
+    "cats": [
+      13,
+      85
+    ],
+    "description": "Usersnap is a user feedback platform for product teams to collect issues, ideas, and surveys, aiding in user testing and product decisions.",
+    "dom": "link[href*='.usersnap.com/']",
+    "icon": "Usersnap.svg",
+    "js": {
+      "onUsersnapCXLoad": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.usersnap\\.com/",
+    "website": "https://usersnap.com"
   },
   "Ushahidi": {
     "cats": [

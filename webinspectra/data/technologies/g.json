@@ -40,7 +40,7 @@
         "exists": ""
       }
     },
-    "icon": "GLPI.png",
+    "icon": "GLPI.svg",
     "implies": "PHP",
     "js": {
       "glpiUnsavedFormChanges": ""
@@ -78,7 +78,7 @@
       "<div[^>]+phase-banner-beta\\;confidence:25",
       "<div[^>]+govuk-box-highlight\\;confidence:25"
     ],
-    "icon": "govuk.png",
+    "icon": "govuk.svg",
     "implies": "GOV.UK Toolkit",
     "website": "https://github.com/alphagov/govuk_elements/"
   },
@@ -91,7 +91,7 @@
       "<body[^>]+govuk-template__body\\;confidence:80",
       "<a[^>]+govuk-link\\;confidence:10"
     ],
-    "icon": "govuk.png",
+    "icon": "govuk.svg",
     "js": {
       "GOVUKFrontend": ""
     },
@@ -111,7 +111,7 @@
       "<link[^>]+govuk-template-ie7[^>\"]+css",
       "<link[^>]+govuk-template-ie8[^>\"]+css"
     ],
-    "icon": "govuk.png",
+    "icon": "govuk.svg",
     "js": {
       "GOVUK": ""
     },
@@ -124,7 +124,7 @@
     "cats": [
       66
     ],
-    "icon": "govuk.png",
+    "icon": "govuk.svg",
     "js": {
       "GOVUK.details": "",
       "GOVUK.modules": "",
@@ -152,13 +152,18 @@
       12
     ],
     "description": "GSAP is an animation library that allows you to create animations with JavaScript.",
-    "icon": "TweenMax.png",
+    "icon": "GSAP.svg",
     "js": {
       "TweenLite.version": "([\\d.]+)\\;version:\\1",
       "TweenMax.version": "([\\d.]+)\\;version:\\1",
       "gsap.version": "([\\d.]+)\\;version:\\1",
       "gsapVersions": ""
     },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
     "scriptSrc": "TweenMax(?:\\.min)?\\.js",
     "website": "https://greensock.com/gsap"
   },
@@ -200,11 +205,28 @@
       1
     ],
     "html": "<!--\\s+Powered by GX",
-    "icon": "GX WebManager.png",
+    "icon": "GX WebManager.svg",
     "meta": {
       "generator": "GX WebManager(?: ([\\d.]+))?\\;version:\\1"
     },
     "website": "https://www.gxsoftware.com/en/products/web-content-management.htm"
+  },
+  "Gallabox": {
+    "cats": [
+      53
+    ],
+    "description": "Gallabox is a tool that transforms WhatsApp into a web chat widget, facilitating management of leads, bookings, deals, and orders.",
+    "icon": "Gallabox.svg",
+    "js": {
+      "gbwawc": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://gallabox.com"
   },
   "Gallery": {
     "cats": [
@@ -228,7 +250,7 @@
     ],
     "description": "Gambio is an all-in-one shopping cart solution for small to medium sized businesses.",
     "html": "(?:<link[^>]* href=\"templates/gambio/|<a[^>]content\\.php\\?coID=\\d|<!-- gambio eof -->|<!--[\\s=]+Shopsoftware by Gambio GmbH \\(c\\))",
-    "icon": "Gambio.png",
+    "icon": "Gambio.svg",
     "implies": "PHP",
     "js": {
       "gambio": ""
@@ -256,6 +278,24 @@
     "saas": true,
     "scriptSrc": "assets\\.gameball\\.co/",
     "website": "https://www.gameball.co"
+  },
+  "Gator": {
+    "cats": [
+      10
+    ],
+    "description": "Gator is a platform that enables realtime user data collection, profiling and aggregation.",
+    "icon": "Gator.svg",
+    "js": {
+      "GatorLegacy": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://gator.io"
   },
   "Gatsby": {
     "cats": [
@@ -296,7 +336,8 @@
     "cookies": {
       "_gauges_": ""
     },
-    "icon": "Gauges.png",
+    "description": "Gauges is a real-time web analytics tool that provides live traffic updates and essential metrics for websites.",
+    "icon": "Gauges.svg",
     "js": {
       "_gauges": ""
     },
@@ -380,7 +421,7 @@
     "html": [
       "<link[^>]+?id=\"gxtheme_css_reference\""
     ],
-    "icon": "GeneXus.png",
+    "icon": "GeneXus.svg",
     "js": {
       "gx.gxVersion": "^(.+)-.*$\\;version:\\1"
     },
@@ -426,7 +467,7 @@
         }
       }
     },
-    "icon": "generatepress.png",
+    "icon": "generatepress.svg",
     "js": {
       "generatepressMenu": "",
       "generatepressNavSearch": ""
@@ -447,7 +488,7 @@
       87
     ],
     "description": "GP Premium is a premium add-on plugin for the GeneratePress WordPress theme.",
-    "icon": "generatepress.png",
+    "icon": "generatepress.svg",
     "implies": "GeneratePress",
     "pricing": [
       "onetime",
@@ -472,10 +513,22 @@
     "scriptSrc": "/wp-content/themes/genesis/lib/js/",
     "website": "https://www.studiopress.com/themes/genesis"
   },
+  "Genesys Chat": {
+    "cats": [
+      52
+    ],
+    "description": "Genesys Chat is a customer engagement platform that facilitates real-time communication between businesses and their customers through web messaging and live chat functionalities.",
+    "icon": "Genesys Cloud.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.boldchat\\.com/",
+    "website": "https://www.genesys.com/capabilities/live-chat-software"
+  },
   "Genesys Cloud": {
     "cats": [
       32,
-      5,
       75
     ],
     "description": "Genesys Cloud is an all-in-one cloud-based contact center software built to improve the customer experience.",
@@ -500,7 +553,7 @@
     ],
     "description": "Geniee is an ad technology company.",
     "dom": "img[src*='.gssprt.jp/'], link[href*='.gssprt.jp']",
-    "icon": "Geniee.png",
+    "icon": "Geniee.svg",
     "pricing": [
       "poa"
     ],
@@ -517,7 +570,7 @@
     "headers": {
       "X-Powered-By": "gentoo"
     },
-    "icon": "Gentoo.png",
+    "icon": "Gentoo.svg",
     "website": "https://www.gentoo.org"
   },
   "Geo Targetly": {
@@ -582,6 +635,21 @@
     "scriptSrc": "\\.getbutton\\.io/",
     "website": "https://getbutton.io"
   },
+  "GetChat": {
+    "cats": [
+      52
+    ],
+    "description": "GetChat is a platform enabling communication with website visitors via preferred messaging applications.",
+    "icon": "GetChat.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "getchat\\.app/",
+    "website": "https://getchat.app"
+  },
   "GetFeedback": {
     "cats": [
       13
@@ -637,7 +705,7 @@
       1
     ],
     "cpe": "cpe:2.3:a:get-simple:getsimple_cms:*:*:*:*:*:*:*:*",
-    "icon": "GetSimple CMS.png",
+    "icon": "GetSimple CMS.svg",
     "implies": "PHP",
     "meta": {
       "generator": "GetSimple"
@@ -661,6 +729,22 @@
     "saas": true,
     "scriptSrc": "api\\.at\\.getsocial\\.io",
     "website": "https://getsocial.io"
+  },
+  "GetTerms": {
+    "cats": [
+      4
+    ],
+    "description": "GetTerms is a tool that generates privacy policies for web platforms.",
+    "icon": "GetTerms.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "onetime",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.getterms\\.io",
+    "website": "https://getterms.io"
   },
   "GetYourGuide": {
     "cats": [
@@ -693,7 +777,7 @@
       36
     ],
     "description": "Getintent is an adtech company that offers AI-powered programmatic suite for agencies, publishers, broadcasters and content owners.",
-    "icon": "Getintent.png",
+    "icon": "Getintent.svg",
     "pricing": [
       "payg"
     ],
@@ -753,13 +837,15 @@
     "description": "Gist is email marketing automation, live chat, and helpdesk software.",
     "icon": "gist_live_chat.svg",
     "js": {
-      "gist.setAppId ": ""
+      "gist.options.versionNumber": "^(.+)$\\;version:\\1"
     },
     "pricing": [
       "freemium",
       "low",
-      "recurring"
+      "recurring",
+      "poa"
     ],
+    "scriptSrc": "\\.getgist\\.com",
     "website": "https://getgist.com/live-chat"
   },
   "Gist Giftship": {
@@ -783,7 +869,7 @@
       4
     ],
     "description": "GitBook is a command-line tool for creating documentation using Git and Markdown.",
-    "icon": "GitBook.png",
+    "icon": "GitBook.svg",
     "js": {
       "__GITBOOK_INITIAL_PROPS__": "",
       "__GITBOOK_INITIAL_STATE__": "",
@@ -847,7 +933,7 @@
       44,
       47
     ],
-    "icon": "GitLab CI.png",
+    "icon": "GitLab.svg",
     "implies": "Ruby on Rails",
     "meta": {
       "description": "GitLab CI/CD is a tool built into GitLab for software development through continuous methodologies."
@@ -890,7 +976,7 @@
     ],
     "description": "GiveCampus is a fundraising platform for nonprofit educational institutions.",
     "dom": "a[href*='.givecampus.com/']",
-    "icon": "GiveCampus.png",
+    "icon": "GiveCampus.svg",
     "meta": {
       "author": "^GiveCampus$"
     },
@@ -940,7 +1026,7 @@
     ],
     "description": "GivingFuel is a fundraising software solution.",
     "dom": "a[href*='.givingfuel.com/']",
-    "icon": "GivingFuel.png",
+    "icon": "GivingFuel.svg",
     "pricing": [
       "freemium",
       "low"
@@ -955,7 +1041,7 @@
       53
     ],
     "description": "Gladly is a customer service platform.",
-    "icon": "Gladly.png",
+    "icon": "Gladly.svg",
     "js": {
       "Gladly": ""
     },
@@ -1005,6 +1091,69 @@
     ],
     "saas": true,
     "website": "https://glassix.co.il"
+  },
+  "Gleam": {
+    "cats": [
+      32
+    ],
+    "description": "Gleam is a marketing app that aids in expanding business email lists, ecommerce stores, SaaS businesses, and Facebook audiences.",
+    "icon": "Gleam.svg",
+    "js": {
+      "Gleam": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.gleamjs\\.io/",
+    "website": "https://gleam.io"
+  },
+  "Gleap": {
+    "cats": [
+      52
+    ],
+    "description": "Gleap is an all-in-one customer feedback platform offering features like in-app bug reporting, live chat, AI support bots, product roadmaps, customer surveys, and marketing automation to enhance customer service and product development.",
+    "icon": "Gleap.svg",
+    "js": {
+      "Gleap": ""
+    },
+    "pricing": [
+      "recurring",
+      "mid"
+    ],
+    "saas": true,
+    "website": "https://www.gleap.io"
+  },
+  "Gleen": {
+    "cats": [
+      52
+    ],
+    "description": "Gleen is a generative AI chatbot designed to provide customers with trustworthy answers, automate actions, and integrate unified knowledge.",
+    "icon": "Gleen.svg",
+    "js": {
+      "gleenWidget": ""
+    },
+    "pricing": [
+      "freemium",
+      "payg"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.gleen\\.ai/",
+    "website": "https://gleen.ai"
+  },
+  "Glia": {
+    "cats": [
+      52
+    ],
+    "description": "Glia is a chat and digital assistant utilised across various industries.",
+    "icon": "Glia.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "api\\.glia\\.com/",
+    "website": "https://www.glia.com"
   },
   "Glide.js": {
     "cats": [
@@ -1088,7 +1237,7 @@
       100
     ],
     "description": "Also Bought is a conversion Shopify app by Globo.",
-    "icon": "Globo apps.png",
+    "icon": "Globo apps.svg",
     "implies": "Shopify",
     "pricing": [
       "freemium",
@@ -1104,7 +1253,7 @@
       100
     ],
     "description": "Globo Color Swatch app gives you an easy-to-use tool to display product variants on both collection page, homepage and product page creatively as a means to enhance customers' experience and stimulate them to purchase.",
-    "icon": "Globo apps.png",
+    "icon": "Globo apps.svg",
     "implies": "Shopify",
     "pricing": [
       "freemium"
@@ -1119,7 +1268,7 @@
       110
     ],
     "description": "Form Builder is a Shopify form builder app for contact form built by Globo.",
-    "icon": "Globo apps.png",
+    "icon": "Globo apps.svg",
     "implies": "Shopify",
     "pricing": [
       "freemium",
@@ -1135,7 +1284,7 @@
       100
     ],
     "description": "Globo Pre-Order is a Shopify app for building pre-order functionality on Shopify stores.",
-    "icon": "Globo apps.png",
+    "icon": "Globo apps.svg",
     "implies": "Shopify",
     "js": {
       "GloboPreorderParams": ""
@@ -1166,7 +1315,7 @@
       106
     ],
     "description": "Glopal provides advanced international marketing solutions for ecommerce retailers and brands seeking to grow their businesses' globally.",
-    "icon": "Glopal.png",
+    "icon": "Glopal.svg",
     "pricing": [
       "freemium",
       "mid",
@@ -1192,13 +1341,28 @@
     ],
     "website": "https://www.gloriafood.com"
   },
+  "GlueUp": {
+    "cats": [
+      53
+    ],
+    "description": "GlueUp is an all-in-one CRM platform.",
+    "icon": "GlueUp.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.glueup\\.com/",
+    "website": "https://www.glueup.com"
+  },
   "Glyphicons": {
     "cats": [
       17
     ],
     "description": "Glyphicons are icon fonts which you can use in your web projects.",
     "html": "(?:<link[^>]* href=[^>]+glyphicons(?:\\.min)?\\.css|<img[^>]* src=[^>]+glyphicons)",
-    "icon": "Glyphicons.png",
+    "icon": "Glyphicons.svg",
     "website": "https://glyphicons.com"
   },
   "Gnuboard": {
@@ -1296,7 +1460,7 @@
     "headers": {
       "Server": "goanywhere"
     },
-    "icon": "goanywhere.png",
+    "icon": "goanywhere.svg",
     "js": {
       "appContainer": "GoAnywhereWebClientContainer"
     },
@@ -1311,7 +1475,7 @@
       "Server": "^gocache$",
       "X-GoCache-CacheStatus": ""
     },
-    "icon": "GoCache.png",
+    "icon": "GoCache.svg",
     "website": "https://www.gocache.com.br/"
   },
   "GoCertify": {
@@ -1461,7 +1625,7 @@
     "cats": [
       25
     ],
-    "icon": "GoJS.png",
+    "icon": "GoJS.svg",
     "js": {
       "go.GraphObject": "",
       "go.version": "(.*)\\;version:\\1"
@@ -1505,6 +1669,23 @@
     },
     "website": "https://www.gomage.com/magento-2-pwa"
   },
+  "GoPrep": {
+    "cats": [
+      93
+    ],
+    "cookies": {
+      "goprep_session": ""
+    },
+    "description": "GoPrep is a meal prep software tailored for the Meal Preparation & Delivery industry.",
+    "icon": "GoPrep.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://goprep.com"
+  },
   "GoStats": {
     "cats": [
       10
@@ -1516,6 +1697,24 @@
       "go_msie": ""
     },
     "website": "https://gostats.com/"
+  },
+  "Goat Slider": {
+    "cats": [
+      59
+    ],
+    "description": "Goat Slider is a webflow library that enables users to construct advanced sliders for their sites.",
+    "icon": "GoatSlider.svg",
+    "js": {
+      "GoatSliderCarousel": "",
+      "GoatSliderSlider": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://goatslider.com"
   },
   "GoatCounter": {
     "cats": [
@@ -1575,7 +1774,7 @@
       "<div class=\"ui left\">\\n\\s+© \\d{4} Gogs Version: ([\\d.]+) Page:\\;version:\\1",
       "<button class=\"ui basic clone button\" id=\"repo-clone-ssh\" data-link=\"gogs@"
     ],
-    "icon": "gogs.png",
+    "icon": "gogs.svg",
     "implies": [
       "Go",
       "Macaron"
@@ -1607,6 +1806,21 @@
     ],
     "saas": true,
     "website": "https://www.gomag.ro"
+  },
+  "Goober": {
+    "cats": [
+      59
+    ],
+    "description": "Goober is a minified CSS-in-JS styling solution.",
+    "dom": "style#_goober",
+    "icon": "Goober.svg",
+    "js": {
+      "goober": "",
+      "gooberGlobal": "",
+      "gooberPrefixer": ""
+    },
+    "oss": true,
+    "website": "https://goober.js.org"
   },
   "Google AdSense": {
     "cats": [
@@ -1948,7 +2162,7 @@
       1
     ],
     "dom": "[data-abuse-proto*='https://sites.google.com/']",
-    "icon": "Google Sites.png",
+    "icon": "Google Sites.svg",
     "url": "^https?://sites\\.google\\.com",
     "website": "https://sites.google.com"
   },
@@ -1957,16 +2171,17 @@
       42
     ],
     "description": "Google Tag Manager is a tag management system (TMS) that allows you to quickly and easily update measurement codes and related code fragments collectively known as tags on your website or mobile app.",
-    "html": [
-      "googletagmanager\\.com/ns\\.html[^>]+></iframe>",
-      "<!-- (?:End )?Google Tag Manager -->"
-    ],
     "icon": "Google Tag Manager.svg",
     "js": {
+      "google_tag_data": "",
+      "google_tag_manager": "",
       "googletag": ""
     },
     "saas": true,
-    "scriptSrc": "googletagmanager\\.com/gtm\\.js",
+    "scriptSrc": [
+      "googletagmanager\\.com/gtm\\.js",
+      "\\.googletagmanager\\.com/"
+    ],
     "website": "https://www.google.com/tagmanager"
   },
   "Google Tag Manager for WordPress": {
@@ -1975,7 +2190,7 @@
     ],
     "description": "Google Tag Manager for WordPress plugin places the GTM container code snippets onto your wordpress website so that you do not need to add this manually.",
     "dom": "link[href*='/wp-content/plugins/duracelltomi-google-tag-manager/']",
-    "icon": "Google Tag Manager for WordPress.png",
+    "icon": "Google Tag Manager for WordPress.svg",
     "implies": "Google Tag Manager",
     "oss": true,
     "requires": "WordPress",
@@ -1986,7 +2201,7 @@
     "cats": [
       41
     ],
-    "icon": "Google Wallet.png",
+    "icon": "Google Wallet.svg",
     "saas": true,
     "scriptSrc": [
       "checkout\\.google\\.com",
@@ -2011,7 +2226,7 @@
     ],
     "cpe": "cpe:2.3:a:google:web_toolkit:*:*:*:*:*:*:*:*",
     "description": "Google Web Toolkit (GWT) is an open-source Java software development framework that makes writing AJAX applications.",
-    "icon": "Google Web Toolkit.png",
+    "icon": "Google Web Toolkit.svg",
     "implies": "Java",
     "js": {
       "__gwt_": "",
@@ -2046,7 +2261,7 @@
       52
     ],
     "description": "Gorgias is a helpdesk and chat solution designed for ecommerce stores.",
-    "icon": "Gorgias.png",
+    "icon": "Gorgias.svg",
     "js": {
       "gorgiasChat": ""
     },
@@ -2066,7 +2281,7 @@
     "headers": {
       "X-Cache": "\\.swiftserve\\.com"
     },
-    "icon": "GotiPath.png",
+    "icon": "GotiPath.svg",
     "pricing": [
       "recurring",
       "poa",
@@ -2108,6 +2323,23 @@
     "saas": true,
     "scriptSrc": "grab-paylater\\.js",
     "website": "https://www.grab.com/sg/finance/pay-later/"
+  },
+  "Grade.us": {
+    "cats": [
+      32,
+      90
+    ],
+    "description": "Grade.us is a review management platform for marketing agencies.",
+    "dom": "script#gradeus-wjs, iframe[src*='www.grade.us']",
+    "icon": "GradeUs.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.grade\\.us",
+    "website": "https://www.grade.us"
   },
   "Grafana": {
     "cats": [
@@ -2175,7 +2407,7 @@
     ],
     "cpe": "cpe:2.3:a:grapesjs:grapesjs:*:*:*:*:*:node.js:*:*",
     "description": "GrapesJS is an open-source, multi-purpose page builder which combines different plugins and intuitive drag and drop interface.",
-    "icon": "GrapesJS.png",
+    "icon": "GrapesJS.svg",
     "js": {
       "grapesjs.version": "^([\\d\\.]+)$\\;version:\\1"
     },
@@ -2263,11 +2495,13 @@
     "cats": [
       1
     ],
-    "icon": "Grav.png",
+    "description": "Grav is a modern, open-source flat-file CMS designed for speed and flexibility, enabling easy website creation and management without needing a database.",
+    "icon": "Grav.svg",
     "implies": "PHP",
     "meta": {
       "generator": "GravCMS(?:\\s([\\d.]+))?\\;version:\\1"
     },
+    "oss": true,
     "website": "https://getgrav.org"
   },
   "Gravatar": {
@@ -2276,7 +2510,7 @@
     ],
     "description": "Gravatar is a service for providing globally unique avatars.",
     "html": "<[^>]+gravatar\\.com/avatar/",
-    "icon": "Gravatar.png",
+    "icon": "Gravatar.svg",
     "js": {
       "Gravatar": ""
     },
@@ -2287,7 +2521,7 @@
       5
     ],
     "description": "Gravitec is a push notification tool.",
-    "icon": "Gravitec.png",
+    "icon": "Gravitec.svg",
     "js": {
       "Gravitec": "",
       "gravitecWebpackJsonp": ""
@@ -2392,12 +2626,29 @@
     },
     "website": "https://gridsome.org"
   },
+  "Gridster": {
+    "cats": [
+      5,
+      12
+    ],
+    "description": "Gridster is a jQuery plugin used to draw dashboards with drag-and-drop widgets.",
+    "implies": "jQuery",
+    "js": {
+      "Gridster": "",
+      "GridsterCollision": "",
+      "GridsterCoords": "",
+      "GridsterDraggable": ""
+    },
+    "oss": true,
+    "saas": true,
+    "website": "https://dsmorse.github.io/gridster.js"
+  },
   "Grin": {
     "cats": [
       32
     ],
     "description": "Grin is a influence marketing platform.",
-    "icon": "Grin.png",
+    "icon": "Grin.svg",
     "js": {
       "Grin": ""
     },
@@ -2410,7 +2661,7 @@
       6
     ],
     "description": "GrocerKey is an ecommerce platform that helps grocery stores build an online store.",
-    "icon": "GrocerKey.png",
+    "icon": "GrocerKey.svg",
     "pricing": [
       "poa"
     ],
@@ -2420,6 +2671,38 @@
       "grocerkey-widget\\.s3\\.amazonaws\\.com/"
     ],
     "website": "https://grocerkey.com"
+  },
+  "Groobee": {
+    "cats": [
+      76
+    ],
+    "description": "Groobee is a solution for personalized ecommerce marketing, offering features to support customer personalization.",
+    "icon": "Groobee.svg",
+    "js": {
+      "groobee": ""
+    },
+    "saas": true,
+    "scriptSrc": "static\\.groobee\\.io/",
+    "website": "https://groobee.net"
+  },
+  "Groove": {
+    "cats": [
+      52,
+      53
+    ],
+    "description": "Groove is a help desk software offering a shared inbox, knowledge base, and chat features.",
+    "icon": "Groove.svg",
+    "js": {
+      "Groove": "",
+      "GrooveWidget": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.groovehq\\.com/",
+    "website": "https://www.groovehq.com"
   },
   "GroupBy": {
     "cats": [
@@ -2455,9 +2738,42 @@
       "gr_user_id": "",
       "grwng_uid": ""
     },
-    "icon": "GrowingIO.png",
+    "icon": "GrowingIO.svg",
     "scriptSrc": "assets\\.growingio\\.com/([\\d.]+)/gio\\.js\\;version:\\1",
     "website": "https://www.growingio.com/"
+  },
+  "GrowthBook": {
+    "cats": [
+      74
+    ],
+    "description": "GrowthBook is a platform for product teams to run and track experiments, analyze results, and make data-driven decisions to optimize their products for growth.",
+    "dom": "link[href*='cdn.growthbook.io']",
+    "icon": "GrowthBook.svg",
+    "js": {
+      "_growthbook.version": "([\\d\\.]+)\\;version:\\1",
+      "_siteSetting.growthBookApiHost": "",
+      "growthbook": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.growthbook.io"
+  },
+  "Gruvi": {
+    "cats": [
+      32
+    ],
+    "description": "Gruvi is a movie marketing network that provides promotional tools and services to the film industry, facilitating audience engagement and increasing visibility for films through targeted campaigns and digital strategies.",
+    "dom": "link[href*='.gruvi.tv/movies/']",
+    "icon": "Gruvi.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.gruvi.tv"
   },
   "Guestonline": {
     "cats": [
@@ -2473,6 +2789,20 @@
     "saas": true,
     "scriptSrc": "ib\\.guestonline\\.\\w+",
     "website": "https://www.guestonline.io"
+  },
+  "Guidap": {
+    "cats": [
+      104
+    ],
+    "description": "Guidap is a platform enabling online activity sales, streamlining booking, scheduling, and payment collection processes across all devices, without commissions.",
+    "dom": "link[href*='//cart.guidap.net/']",
+    "icon": "Guidap.svg",
+    "js": {
+      "GUIDAP": "",
+      "GUIDAPInitConfig": ""
+    },
+    "saas": true,
+    "website": "https://guidap.com"
   },
   "GuideIT": {
     "cats": [

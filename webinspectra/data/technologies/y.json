@@ -279,6 +279,46 @@
     "oss": true,
     "website": "https://github.com/erlyaws/yaws"
   },
+  "Ybug": {
+    "cats": [
+      13
+    ],
+    "description": "Ybug is a visual feedback and bug tracking tool designed for users and clients, enabling identification and reporting of issues.",
+    "icon": "Ybug.svg",
+    "js": {
+      "Ybug": "",
+      "ybug_settings": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.ybug\\.io/",
+    "website": "https://ybug.io"
+  },
+  "Yclas": {
+    "cats": [
+      6
+    ],
+    "cpe": "cpe:2.3:a:open-classifieds:open_classifieds:*:*:*:*:*:*:*:*",
+    "description": "Yclas is a platform that allows users to create and manage customizable online classified ads websites, available as both a hosted service and an open-source self-hosted solution​ .",
+    "icon": "Yclas.svg",
+    "meta": {
+      "author": "open-classifieds\\.com",
+      "copyright": "(?:Open Classifieds|Yclas)\\s([0-9.]+)?\\;version:\\1"
+    },
+    "oss": true,
+    "pricing": [
+      "low",
+      "recurring",
+      "onetime"
+    ],
+    "saas": true,
+    "website": "https://yclas.com"
+  },
   "Ycode": {
     "cats": [
       51
@@ -349,6 +389,20 @@
       "copyright": "Yepcomm Tecnologia"
     },
     "website": "https://www.yepcomm.com.br"
+  },
+  "Yeps": {
+    "cats": [
+      32,
+      75
+    ],
+    "description": "Yeps is a minimalist bar that can be added to the top or bottom of your website to collect visitor’s emails and promote content.",
+    "icon": "Yeps.svg",
+    "js": {
+      "Yeps": ""
+    },
+    "saas": true,
+    "scriptSrc": "app\\.yeps\\.io/",
+    "website": "https://yeps.io"
   },
   "YesWiki": {
     "cats": [
@@ -540,6 +594,26 @@
     "scriptSrc": "\\.yola(?:cdn)?\\.(?:net|com)/",
     "website": "https://www.yola.com"
   },
+  "Yonder": {
+    "cats": [
+      52,
+      93
+    ],
+    "description": "Yonder is a booking automation solution that helps tourism businesses increase bookings, collect feedback, garner positive reviews, convert website visitors, automate FAQs with an AI chatbot, and communicate with customers.",
+    "icon": "Yonder.svg",
+    "js": {
+      "YONDER_APP_LOADED": "",
+      "toggleYonderChat": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.yonderhq\\.com/",
+    "website": "https://www.yonderhq.com"
+  },
   "YooMoney": {
     "cats": [
       41
@@ -563,7 +637,7 @@
     ],
     "description": "Yoori is a multi-vendor PWA ecommerce CMS.",
     "dom": "div.yoori--cookies",
-    "icon": "Yoori.png",
+    "icon": "Yoori.svg",
     "implies": [
       "Laravel",
       "PHP",

@@ -27,7 +27,7 @@ venv: ensure-virtualenv
 # Install dependencies
 .PHONY: install
 install: venv
-	@. $(VENV)/bin/activate && $(PIP) install --upgrade pip setuptools wheel
+	@. $(VENV)/bin/activate && $(PIP) install --upgrade pip setuptools wheel pytest
 	@. $(VENV)/bin/activate && $(PIP) install -e .
 	@echo "Dependencies installed"
 

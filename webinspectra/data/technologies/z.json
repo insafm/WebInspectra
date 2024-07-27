@@ -127,6 +127,24 @@
     "scriptSrc": "zanox\\.com/scripts/zanox\\.js$",
     "website": "https://zanox.com"
   },
+  "Zapiet": {
+    "cats": [
+      6
+    ],
+    "description": "Zapiet is a store pickup and local delivery solution for ecommerce.",
+    "icon": "Zapiet.svg",
+    "js": {
+      "Zapiet": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.zapiet\\.com",
+    "website": "https://www.zapiet.com"
+  },
   "Zeabur": {
     "cats": [
       62
@@ -194,6 +212,19 @@
     "saas": true,
     "scriptSrc": "\\.zenplanner\\.com/",
     "website": "https://zenplanner.com"
+  },
+  "Zenchef": {
+    "cats": [
+      93
+    ],
+    "description": "Zenchef is a restaurant management software solution that simplifies the customer restaurant experience.",
+    "icon": "Zenchef.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "sdk\\.zenchef\\.com/",
+    "website": "https://www.zenchef.com"
   },
   "Zend": {
     "cats": [
@@ -728,6 +759,41 @@
     "scriptSrc": "madstreetden\\.widget\\.insent\\.ai",
     "website": "https://www.zoominfo.com/chat"
   },
+  "Zoorate": {
+    "cats": [
+      90
+    ],
+    "description": "Zoorate is a user-generated content sharing service tailored for retailers, facilitating the exchange of customer experiences and feedback.",
+    "icon": "Zoorate.svg",
+    "js": {
+      "zoorate_params": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "widget\\.zoorate\\.com/",
+    "website": "https://zoorate.com"
+  },
+  "Zoorix": {
+    "cats": [
+      6
+    ],
+    "description": "Zoorix is a tool that helps businesses increase revenue by facilitating upselling and cross-selling.",
+    "icon": "Zoorix.svg",
+    "js": {
+      "Zoorix": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "requires": "Shopify",
+    "saas": true,
+    "scriptSrc": "\\.zoorix\\.com/",
+    "website": "https://www.zoorix.com"
+  },
   "Zope": {
     "cats": [
       22
@@ -754,6 +820,24 @@
     ],
     "website": "https://info.zotabox.com"
   },
+  "Zowie": {
+    "cats": [
+      52,
+      53
+    ],
+    "description": "Zowie is an AI-powered customer service suite tailored for ecommerce, aimed at cost-saving and revenue generation through value-driven interactions.",
+    "dom": "div#zowieChatbotWrapper",
+    "icon": "Zowie.png",
+    "js": {
+      "Zowie": "",
+      "zowieJsonp": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://getzowie.com"
+  },
   "Zozo": {
     "cats": [
       6
@@ -776,6 +860,19 @@
     "scriptSrc": "zozo-main\\.min\\.js",
     "website": "https://zozo.vn"
   },
+  "Zuora": {
+    "cats": [
+      41
+    ],
+    "description": "Zuora is a platform that offers subscription billing management software.",
+    "icon": "Zuora.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.zuora\\.com/",
+    "website": "https://www.zuora.com"
+  },
   "Zuppler": {
     "cats": [
       93
@@ -788,5 +885,16 @@
     ],
     "saas": true,
     "website": "https://www.zuppler.com"
+  },
+  "Zwayam": {
+    "cats": [
+      101
+    ],
+    "description": "Zwayam is a recruitment software designed to manage the entire hiring process.",
+    "dom": "link[href*='/zwayam.min.css']",
+    "icon": "Zwayam.svg",
+    "saas": true,
+    "scriptSrc": "/zwayam\\.min\\.js",
+    "website": "https://www.zwayam.com"
   }
 }

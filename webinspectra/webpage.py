@@ -100,7 +100,7 @@ class WebPage:
 
 		try:
 			# Send a GET request to fetch the content of robots.txt with a timeout
-			response = requests.get(robots_txt_url, timeout=10)
+			response = requests.get(robots_txt_url, timeout=5)
 
 			# Check if the response status code is 200 (OK)
 			if response.status_code == 200:

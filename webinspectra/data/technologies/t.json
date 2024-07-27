@@ -89,6 +89,20 @@
     ],
     "website": "https://www.tcadmin.com"
   },
+  "TDO Software": {
+    "cats": [
+      53
+    ],
+    "description": "TDO is a practice management software designed for endodontists to build a modern office environment.",
+    "dom": "link[href*='//tdosites.com'][rel='dns-prefetch']",
+    "icon": "TDOSoftware.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "tdosites\\.com/",
+    "website": "https://wwww.tdo4endo.com"
+  },
   "TDesign": {
     "cats": [
       66
@@ -348,6 +362,22 @@
     "website": "https://www.taboola.com",
     "xhr": "\\.taboola\\.com"
   },
+  "Tabulator": {
+    "cats": [
+      59
+    ],
+    "description": "Tabulator is a JavaScript tool for creating interactive tables and data grids.",
+    "icon": "Tabulator.svg",
+    "js": {
+      "Tabulator": ""
+    },
+    "oss": true,
+    "pricing": [
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://tabulator.info/"
+  },
   "Tachyons": {
     "cats": [
       66
@@ -456,6 +486,21 @@
     "url": "\\.taggbox\\.com",
     "website": "https://taggbox.com/"
   },
+  "Taggshop": {
+    "cats": [
+      6
+    ],
+    "description": "",
+    "dom": "div[view-url*='app.taggshop.io/']",
+    "icon": "Taggshop.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.taggshop\\.io/",
+    "website": "https://tagshop.ai/"
+  },
   "Taiga": {
     "cats": [
       13
@@ -498,6 +543,7 @@
     },
     "icon": "tailwindcss.svg",
     "js": {
+      "hexToTailwindColorVar": "",
       "tailwind": ""
     },
     "scriptSrc": "\\.tailwindcss(?:tailwind-config-cdn)?\\.(?:com|js)",
@@ -536,6 +582,25 @@
     ],
     "saas": true,
     "website": "https://www.talkable.com"
+  },
+  "Talkdesk": {
+    "cats": [
+      52,
+      53
+    ],
+    "description": "Talkdesk is a platform providing modern AI-powered customer service solutions.",
+    "icon": "Talkdesk.svg",
+    "js": {
+      "TalkdeskChatSDK": "",
+      "webpackChunkTalkdeskChatSDK": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.talkdeskapp\\.com/",
+    "website": "https://www.talkdesk.com"
   },
   "Tallentor": {
     "cats": [
@@ -701,6 +766,20 @@
     "scriptSrc": "static\\.target2sell\\.com",
     "website": "https://www.target2sell.com/"
   },
+  "Tars": {
+    "cats": [
+      52
+    ],
+    "description": "Tars is a platform for creating chatbots without programming knowledge.",
+    "dom": "link[href*='api.hellotars.com/']",
+    "icon": "Tars.svg",
+    "js": {
+      "tarsWidget": ""
+    },
+    "saas": true,
+    "scriptSrc": "api\\.hellotars\\.com/",
+    "website": "https://hellotars.com/"
+  },
   "Tatari": {
     "cats": [
       36
@@ -849,6 +928,21 @@
     },
     "website": "https://www.jetbrains.com/teamcity/"
   },
+  "TeamLinkt": {
+    "cats": [
+      13
+    ],
+    "description": "Teamlinkt is a software facilitating team management, enabling users to track progress, assign tasks, and coordinate activities.",
+    "icon": "TeamLinkt.svg",
+    "meta": {
+      "author": "^TeamLinkt$"
+    },
+    "pricing": [
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://teamlinkt.com"
+  },
   "TeamSystem Commerce": {
     "cats": [
       6
@@ -858,6 +952,26 @@
     },
     "icon": "storeden.svg",
     "website": "https://www.teamsystemcommerce.com/"
+  },
+  "TeamUnify": {
+    "cats": [
+      53
+    ],
+    "description": "TeamUnify is an all-in-one swim platform that simplifies swim team management.",
+    "icon": "TeamUnify.svg",
+    "js": {
+      "TeamUnifyUpdateSubsystem": ""
+    },
+    "meta": {
+      "author": "^TeamUnify$"
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.teamunify.com"
   },
   "TeamUp": {
     "cats": [
@@ -872,6 +986,21 @@
     ],
     "saas": true,
     "website": "https://goteamup.com"
+  },
+  "TeamViewer": {
+    "cats": [
+      37,
+      45
+    ],
+    "description": "TeamViewer is a network and IT systems uptime monitoring service, formerly known as Monitis.",
+    "icon": "TeamViewer.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "rum\\.monitis\\.com/",
+    "website": "https://monitis.com"
   },
   "Teamtailor": {
     "cats": [
@@ -915,6 +1044,44 @@
     "saas": true,
     "scripts": "\\.tebexLogin",
     "website": "https://www.tebex.io"
+  },
+  "Teeinblue": {
+    "cats": [
+      76
+    ],
+    "description": "Teeinblue is a personalization tool tailored for print-on-demand merchants using Shopify.",
+    "icon": "TeeinBlue.svg",
+    "js": {
+      "TEEINBLUE_LOADED": "",
+      "teeinblue": "",
+      "teeinblueShop": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "sdk\\.teeinblue\\.com",
+    "website": "https://teeinblue.com"
+  },
+  "TeleportHQ": {
+    "cats": [
+      51
+    ],
+    "description": "TeleportHQ is a front-end development platform featuring a visual builder and headless content modeling capabilities.",
+    "dom": "link[href*='/@teleporthq/teleport-custom-scripts/']",
+    "icon": "TeleportHq.svg",
+    "implies": "React",
+    "oss": true,
+    "pricing": [
+      "freemium",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://teleporthq.io"
   },
   "Telescope": {
     "cats": [
@@ -974,6 +1141,23 @@
       "captcha\\.qq\\.com/.*"
     ],
     "website": "https://007.qq.com/"
+  },
+  "Tender Support": {
+    "cats": [
+      53
+    ],
+    "description": "Tender Support is a customer service software offering essential tools to enhance customer support.",
+    "icon": "TenderSupport.svg",
+    "js": {
+      "Tender": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.tenderapp\\.com/",
+    "website": "https://tenderapp.com"
   },
   "Tengine": {
     "cats": [
@@ -1070,6 +1254,31 @@
       "generator": "Textpattern"
     },
     "website": "https://textpattern.com"
+  },
+  "Thawte": {
+    "cats": [
+      70
+    ],
+    "certIssuer": "Thawte",
+    "description": "Thawte is a provider of SSL certificates, offering a site seal as a visual indicator of website security.",
+    "icon": "Thawte.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.thawte.com"
+  },
+  "The AdsLab": {
+    "cats": [
+      32,
+      36
+    ],
+    "description": "The AdsLab is a tool that enables users to target, track, and convert their desired audience effectively.",
+    "icon": "TheAdsLab.svg",
+    "saas": true,
+    "scriptSrc": "app\\.theadslab\\.io/",
+    "website": "https://www.theadslab.io"
   },
   "The Arena Group": {
     "cats": [
@@ -1497,7 +1706,7 @@
     ],
     "description": "ThemeIsle Menu Icons plugin gives you the ability to add icons to your menu items, similar to the look of the latest dashboard menu.",
     "dom": "link[href*='/wp-content/plugins/menu-icons/']",
-    "icon": "ThemeIsle.png",
+    "icon": "ThemeIsle.svg",
     "requires": "WordPress",
     "website": "https://wordpress.org/plugins/menu-icons"
   },
@@ -2375,6 +2584,23 @@
     },
     "website": "https://tomatocart.com"
   },
+  "Tomis": {
+    "cats": [
+      32
+    ],
+    "description": "Tomis is a digital marketing tour operator, specialising in promoting travel services through online channels.",
+    "dom": "script#tomis_script-js",
+    "icon": "Tomis.svg",
+    "js": {
+      "TOMIS": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "tomis-bot\\.firebaseapp\\.com/",
+    "website": "https://tomis.tech"
+  },
   "TornadoServer": {
     "cats": [
       22
@@ -2462,11 +2688,13 @@
     "cats": [
       13
     ],
-    "html": [
-      "<a id=\"tracpowered",
-      "Powered by <a href=\"[^\"]*\"><strong>Trac(?:[ /]([\\d.]+))?\\;version:\\1"
-    ],
-    "icon": "Trac.png",
+    "cookies": {
+      "trac_form_token": "",
+      "trac_session": ""
+    },
+    "description": "Trac is an enhanced wiki and issue tracking system for software development projects, using a minimalistic approach to web-based software project management.",
+    "dom": "link[type*='text/x-trac-wiki']",
+    "icon": "Trac.svg",
     "implies": "Python",
     "website": "https://trac.edgewall.org"
   },
@@ -2547,22 +2775,6 @@
       "recurring"
     ],
     "website": "https://www.tradingview.com"
-  },
-  "Traek": {
-    "cats": [
-      10
-    ],
-    "description": "Traek is a website insights, analytics and lead generation tool.",
-    "icon": "Traek.svg",
-    "js": {
-      "Traek": ""
-    },
-    "pricing": [
-      "payg",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://www.traek.io"
   },
   "TrafficStars": {
     "cats": [
@@ -3063,6 +3275,29 @@
     "scriptSrc": "\\.trynow\\.net/shopify/([\\d\\.]+)/\\;version:\\1",
     "website": "https://www.trynow.io"
   },
+  "Tula": {
+    "cats": [
+      53,
+      72
+    ],
+    "cookies": {
+      "_tulayoga_session": ""
+    },
+    "description": "Tula is a web-based yoga studio software facilitating management of payments, memberships, calendar sharing, registrations, credit tracking, attendance recording, and more for studio owners.",
+    "icon": "TulaSoftware.svg",
+    "js": {
+      "Tula": "",
+      "TulaSpinner": "",
+      "TulaUtil": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://tulasoftware.com"
+  },
   "Tumblr": {
     "cats": [
       11
@@ -3075,6 +3310,23 @@
     "icon": "Tumblr.png",
     "url": "^https?://(?:www\\.)?[^/]+\\.tumblr\\.com/",
     "website": "https://www.tumblr.com"
+  },
+  "Tunosite": {
+    "cats": [
+      51
+    ],
+    "description": "Tunosite is a web app builder for startups and business with combining content, membership, and discussions in one place, under your own brand with no coding skills required.",
+    "dom": "link[href*='app.tunosite.com']",
+    "icon": "Tunosite.png",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.tunosite\\.com",
+    "website": "https://tunosite.com"
   },
   "Turbo": {
     "cats": [
@@ -3646,6 +3898,26 @@
     ],
     "saas": true,
     "website": "https://tyslo.com"
+  },
+  "theMarketer": {
+    "cats": [
+      32,
+      84
+    ],
+    "cookies": {
+      "themarketerbackend_session": ""
+    },
+    "description": "theMarketer is a marketing platform that includes a loyalty program.",
+    "icon": "theMarketer.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "t\\.themarketer\\.com/",
+    "website": "https://themarketer.com"
   },
   "theTradeDesk": {
     "cats": [

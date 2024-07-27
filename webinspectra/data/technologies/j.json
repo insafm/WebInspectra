@@ -5,7 +5,7 @@
     ],
     "cpe": "cpe:2.3:a:j2store:j2store:*:*:*:*:*:joomla\\!:*:*",
     "description": "J2Store is a Joomla shopping cart and ecommerce extension.",
-    "icon": "j2store.png",
+    "icon": "j2store.svg",
     "implies": "Joomla",
     "js": {
       "j2storeURL": ""
@@ -23,7 +23,7 @@
     ],
     "description": "JANet is an affiliate marketing network.",
     "dom": "img[src*='.j-a-net.jp'],img[data-src*='.j-a-net.jp']",
-    "icon": "JANet.png",
+    "icon": "JANet.svg",
     "website": "https://j-a-net.jp"
   },
   "JAlbum": {
@@ -31,7 +31,7 @@
       7
     ],
     "description": "jAlbum is across-platform photo website software for creating and uploading galleries from images and videos.",
-    "icon": "JAlbum.png",
+    "icon": "JAlbum.svg",
     "implies": "Java",
     "meta": {
       "generator": "JAlbum( [\\d.]+)?\\;version:\\1"
@@ -76,7 +76,8 @@
     "cats": [
       25
     ],
-    "icon": "JS Charts.png",
+    "description": "JS Charts is a JavaScript-based tool for creating customizable charts, such as bar, pie, and line charts, with minimal coding required for integration into web projects.",
+    "icon": "JS Charts.svg",
     "js": {
       "JSChart": ""
     },
@@ -102,7 +103,7 @@
     ],
     "description": "JSS is an authoring tool for CSS which allows you to use JavaScript to describe styles in a declarative, conflict-free and reusable way.",
     "dom": "style[data-jss]",
-    "icon": "JSS.png",
+    "icon": "JSS.svg",
     "oss": true,
     "website": "https://cssinjs.org/"
   },
@@ -196,11 +197,32 @@
     "cats": [
       1
     ],
-    "icon": "Jalios.png",
+    "description": "Jalios provides digital workplace solutions, including collaborative intranets, enterprise social networks, and document management systems, to enhance organizational communication and productivity.",
+    "icon": "Jalios.svg",
     "meta": {
       "generator": "Jalios"
     },
+    "pricing": [
+      "recurring",
+      "payg"
+    ],
+    "saas": true,
     "website": "https://www.jalios.com"
+  },
+  "Jameda": {
+    "cats": [
+      72
+    ],
+    "description": "Jameda is an online appointment scheduling system for doctors, enabling patients to book medical consultations.",
+    "icon": "Jameda.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn1.\\jameda-elements\\.de/",
+    "website": "https://www.jameda.de"
   },
   "Java": {
     "cats": [
@@ -335,26 +357,17 @@
     "scriptSrc": "/wp-content/plugins/jetpack-boost/",
     "website": "https://jetpack.com"
   },
-  "Jetshop": {
-    "cats": [
-      6
-    ],
-    "html": "<(?:div|aside) id=\"jetshop-branding\">",
-    "icon": "Jetshop.png",
-    "js": {
-      "JetshopData": ""
-    },
-    "website": "https://jetshop.se"
-  },
   "Jetty": {
     "cats": [
       22
     ],
+    "description": "Jetty is an open-source web server and servlet container known for its scalability and efficiency, supporting protocols like HTTP and WebSocket for various applications from development tools to cloud services.",
     "headers": {
       "Server": "Jetty(?:\\(([\\d\\.]*\\d+))?\\;version:\\1"
     },
-    "icon": "Jetty.png",
+    "icon": "Jetty.svg",
     "implies": "Java",
+    "oss": true,
     "website": "https://www.eclipse.org/jetty"
   },
   "Jibres": {
@@ -442,7 +455,8 @@
       52
     ],
     "description": "Jitsi is a free and open-source multiplatform voice (VoIP), videoconferencing and instant messaging applications for the web platform.",
-    "icon": "Jitsi.png",
+    "icon": "Jitsi.svg",
+    "oss": true,
     "scriptSrc": "lib-jitsi-meet.*\\.js",
     "website": "https://jitsi.org"
   },
@@ -465,7 +479,7 @@
       52
     ],
     "description": "JivoChat is a live chat solution for websites offering customizable web and mobile chat widgets.",
-    "icon": "JivoChat.png",
+    "icon": "JivoChat.svg",
     "js": {
       "jivo_api": "",
       "jivo_version": "([\\d.]+)\\;version:\\1"
@@ -499,7 +513,7 @@
     ],
     "description": "JobAdder is a cloud-based recruitment management platform for staffing agencies and in-house corporate hiring teams.",
     "dom": "a[href*='clientapps.jobadder.com/'], link[href*='jobadder.com']",
-    "icon": "JobAdder.png",
+    "icon": "JobAdder.svg",
     "pricing": [
       "payg",
       "recurring"
@@ -514,7 +528,7 @@
       101
     ],
     "description": "Jobberbase is an open-source job board platform that enables the creation of job sites.",
-    "icon": "JobberBase.png",
+    "icon": "JobberBase.svg",
     "implies": "PHP",
     "js": {
       "Jobber": ""
@@ -531,7 +545,7 @@
     ],
     "description": "Jobvite is an applicant tracking software and recruiting platform.",
     "dom": "a[href*='.jobvite.com/']",
-    "icon": "Jobvite.png",
+    "icon": "Jobvite.svg",
     "js": {
       "Jobvite": ""
     },
@@ -542,6 +556,23 @@
     ],
     "saas": true,
     "website": "https://www.jobvite.com"
+  },
+  "Jonas Club Software": {
+    "cats": [
+      53
+    ],
+    "description": "Jonas Club Software is a provider of club management solutions, facilitating relationship building with members, revenue growth, and cost reduction.",
+    "icon": "Jonas.svg",
+    "js": {
+      "jonasPrivacyPolicy": "",
+      "jonasPrivacyPolicyClassName": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://jonasclub.com"
   },
   "JoomShopping": {
     "cats": [
@@ -564,7 +595,7 @@
     "cats": [
       1
     ],
-    "cpe": "cpe:2.3:a:joomla:joomla:*:*:*:*:*:*:*:*",
+    "cpe": "cpe:2.3:a:joomla:joomla\\!:*:*:*:*:*:*:*:*",
     "description": "Joomla is a free and open-source content management system for publishing web content.",
     "headers": {
       "X-Content-Encoded-By": "Joomla! ([\\d.]+)\\;version:\\1"
@@ -659,7 +690,7 @@
       36
     ],
     "description": "JuicyAds is a legitimate advertising network that specializes in adult content.",
-    "icon": "JuicyAds.png",
+    "icon": "JuicyAds.svg",
     "js": {
       "adsbyjuicy": ""
     },
@@ -677,25 +708,10 @@
       92
     ],
     "description": "Jumbo is a page speed optimizer app for Shopify based sites.",
-    "icon": "Jumbo.png",
+    "icon": "Jumbo.svg",
     "implies": "Shopify",
     "scriptSrc": "mt\\.tryjumbo\\.com",
     "website": "https://www.tryjumbo.com/"
-  },
-  "Jumio": {
-    "cats": [
-      16
-    ],
-    "description": "Jumio is an online mobile payments and identity verification company that provides card and ID scanning and validation products for mobile and web transactions.",
-    "dom": "iframe[src*='.netverify.com/']",
-    "icon": "Jumio.svg",
-    "pricing": [
-      "payg",
-      "mid",
-      "recurring"
-    ],
-    "saas": true,
-    "website": "https://www.jumio.com"
   },
   "Jumpseller": {
     "cats": [
@@ -716,28 +732,6 @@
       "jumpseller-apps\\.herokuapp\\.\\w+/"
     ],
     "website": "https://jumpseller.com"
-  },
-  "June": {
-    "cats": [
-      10,
-      97
-    ],
-    "cookies": {
-      "_june_session": ""
-    },
-    "description": "June is a product analytics for subscription businesses. It automatically generates graphs of the metrics users should track by connecting their segment account.",
-    "icon": "June.svg",
-    "pricing": [
-      "mid",
-      "freemium",
-      "recurring"
-    ],
-    "saas": true,
-    "scriptSrc": [
-      "static\\.june\\.so/analytics\\.js/"
-    ],
-    "website": "https://june.so",
-    "xhr": "a\\.june\\.so"
   },
   "Junip": {
     "cats": [
@@ -782,6 +776,21 @@
       "Juspay": ""
     },
     "website": "https://juspay.in"
+  },
+  "Justia": {
+    "cats": [
+      1
+    ],
+    "cookies": {
+      "SESSJUSTIA": ""
+    },
+    "description": "Justia is a lawyer-based content management system (CMS).",
+    "icon": "Justia.svg",
+    "js": {
+      "jmetadata": ""
+    },
+    "saas": true,
+    "website": "https://www.justia.com"
   },
   "Justo": {
     "cats": [
@@ -840,11 +849,13 @@
       12,
       59
     ],
-    "icon": "jComponent.png",
+    "description": "jComponent is a platform offering open-source web components and icons for easy integration into web projects.",
+    "icon": "jComponent.svg",
     "implies": "jQuery",
     "js": {
       "MAIN.version": ".*\\;version:\\1"
     },
+    "oss": true,
     "website": "https://componentator.com"
   },
   "jPlayer": {
@@ -853,7 +864,7 @@
       59
     ],
     "description": "jPlayer is a cross-browser JavaScript library developed as a jQuery plugin which facilitates the embedding of web based media, notably HTML5 audio and video in addition to Adobe Flash based media.",
-    "icon": "jPlayer.png",
+    "icon": "jPlayer.svg",
     "implies": "jQuery",
     "js": {
       "jPlayerPlaylist": ""
@@ -954,7 +965,7 @@
     ],
     "description": "jQuery Modal is an overlay dialog box or in other words, a popup window that is made to display on the top or 'overlayed' on the current page.",
     "dom": "link[href*='jquery.modal.min.css']",
-    "icon": "jQuery Modal.png",
+    "icon": "jQuery Modal.svg",
     "implies": "jQuery",
     "oss": true,
     "scriptSrc": "jquery-modal/([\\d\\.]+)/jquery\\.modal\\.min\\.js\\;version:\\1",

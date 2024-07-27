@@ -107,7 +107,7 @@
     ],
     "description": "XSLT is designed for use as part of XSL, which is a stylesheet language for XML.",
     "html": "<xsl[^>]* version=\"(.+)\"\\;version:\\1",
-    "icon": "W3C.png",
+    "icon": "W3C.svg",
     "website": "https://www.w3.org/TR/xslt-10"
   },
   "XWiki": {
@@ -125,6 +125,16 @@
       "wiki": "xwiki"
     },
     "website": "https://www.xwiki.org"
+  },
+  "XYZScripts": {
+    "cats": [
+      87
+    ],
+    "description": "XYZScripts is a provider of PHP clone scripts and WordPress plugins. It offers top-quality PHP and MySQL scripts to help build online businesses, with ready-to-deploy solutions that enable website setup.",
+    "dom": "a[href*='xyzscripts.com/'] + a[href*='www.xyzscripts.com']",
+    "icon": "XYZScripts.svg",
+    "saas": true,
+    "website": "https://xyzscripts.com"
   },
   "Xajax": {
     "cats": [
@@ -325,6 +335,23 @@
       "xtremepush": ""
     },
     "website": "https://xtremepush.com"
+  },
+  "Xzero Analytics": {
+    "cats": [
+      10
+    ],
+    "description": "Xzero Analytics is a tool for monitoring user journeys, analysing visitor sessions, gathering heatmaps, and more, enabling the observation and evolution of site traffic.",
+    "icon": "XZeroAnalytics.png",
+    "js": {
+      "xzero-analytics": ""
+    },
+    "pricing": [
+      "low",
+      "freemium"
+    ],
+    "saas": true,
+    "scriptSrc": "analytics\\.xzero\\.co\\.uk",
+    "website": "https://analytics.xzero.co.uk"
   },
   "xCharts": {
     "cats": [
